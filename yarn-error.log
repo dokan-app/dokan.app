@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add styled-components
+
+PATH: 
+  /Users/kingrayhan/google-cloud-sdk/bin:/Users/kingrayhan/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/google-cloud-sdk/bin:/Users/kingrayhan/flutter/bin:/Users/kingrayhan/mongodb/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.18.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir '/Users/kingrayhan/projects/next-tailwind/node_modules/babel-plugin-macros/node_modules'
+
+npm manifest: 
+  {
+    "name": "next-tailwind",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "next start",
+      "dev": "next dev",
+      "build": "next build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "next": "9.4.1",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1"
+    },
+    "devDependencies": {
+      "@types/node": "^14.0.23",
+      "@types/react": "^16.9.43",
+      "@zeit/next-css": "1.0.1",
+      "autoprefixer": "^9.8.5",
+      "babel-plugin-macros": "^2.8.0",
+      "postcss-cli": "^7.1.1",
+      "postcss-preset-env": "^6.7.0",
+      "styled-components": "^5.1.1",
+      "tailwindcss": "^1.5.1",
+      "twin.macro": "^1.5.0",
+      "typescript": "^3.9.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
